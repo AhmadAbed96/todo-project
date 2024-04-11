@@ -25,7 +25,7 @@ function welcomingPrompt() {
 }
 
 setTimeout(() => {
-     questions()
+     welcomingPrompt(),questions()
 }, 1500)
 function questions() {
      let user_questions = [];
